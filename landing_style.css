@@ -1,0 +1,127 @@
+
+header {
+  position: fixed;
+  background-color: #87CEEB;
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+  padding: 0em;
+  width: 100%
+}
+
+.nav-bar {
+  position: fixed;
+}
+body{
+ height: 100%;
+  margin: 0;
+  text-align: center;
+  
+}
+
+.bg{
+   background-image: url("https://static.globalinnovationexchange.org/styles/card__500x300_/s3/e_0.jpg?o_cI0RBeDhH1is0eiyie7pi8hUXP3Hlr&itok=1BmDPEqO");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+  backgroun-position: center;
+  filter: brightness(100%);
+}
+
+.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+main {
+  font-family: 'Exo 2', sans-serif;
+}
+#about {
+  text-align: center;
+  font-size: 20px;
+}
+h1{
+  font-size: 75px;
+  
+}
+p {
+  text-align: center;
+  font-size: 25px;
+}
+
+#email{
+  border: 0;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  font-size: 20px;
+  
+}
+#submit{
+  border: 0;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  background-color: #87CEEB;
+  color: white;
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li {
+  float: right;
+}
+
+video {
+        background: transparent url("http://kitaprann.katkatgame.com/images/progress-phone.png") 50% 50% / cover no-repeat;
+  
+    }
+#top-video{
+  
+}
+#contact{
+  border: 5;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+ 
+  font-size: 20px;
+}
+.photo-1 {
+  background-color:#f2efea;
+   padding: 3em;
+  height: 100px;
+  width: 100px;
+  margin: 50px 30px;
+  display: inline-box;
+}
+#top-photo {
+  display: inline-box;
+   margin-left: auto;
+margin-right: auto;
+  justify-content: center; 
+  
+  
+} 
+
+
+@media (max-width: 550px ){
+  h1 {
+    font-size: 1.25em;
+  }
+}
